@@ -1,0 +1,473 @@
+https://github.com/TencentARC/GFPGAN  老照片修复
+
+https://github.com/open-mmlab/mmediting  一个比较强悍的多功能的视频处理库
+
+https://github.com/bryandlee/FreezeG  https://github.com/sangwoomo/FreezeD   冻结某些层，来实现stylegan2的 style transfer。
+https://github.com/chaofengc/Face-SPARNet  人脸超分 人脸超级分辨率
+
+https://github.com/csjliang/LPTN  High-Resolution Photorealistic Image Translation in Real-Time
+
+https://github.com/yuval-alaluf/restyle-encoder  这个是stylegan2的最新版本的inversion，可能比psp还强。还没有测试。
+https://github.com/megvii-model/HINet 照片划痕修复，去抖动，降噪。
+
+https://github.com/Aaditya-Singh/SAFIN  ICME 2021的 style transfer, 需要pytorch==1.2，现在没法测试。
+https://github.com/galatolofederico/clip-glass  从text生成image， 基于stylegan2
+
+https://github.com/justinpinkney/stylegan2  带有blend 方法的stylegan2,祖师爷在这里。
+
+https://github.com/Hangz-nju-cuhk/Talking-Face_PC-AVS  牛B的对嘴型
+https://github.com/snap-research/articulated-animation  牛B的对整个身体动作。
+
+https://github.com/yangxy/GPEN  一个还没开源的人像超分辨率重构，似乎非常牛
+
+https://github.com/HelenMao/SAVI2I 连续变化的img2img translation
+https://github.com/lyndonzheng/F-LSeSim 类似于CUT
+https://github.com/rnwzd/FSPBT-Image-Translation。few shot video style transfer
+https://github.com/OndrejTexler/Few-Shot-Patch-Based-Training。完整版本
+
+https://github.com/JunlinHan/DCLGAN 号称强于cut
+https://github.com/yaxingwang/SEMIT。少样本的img2img
+https://github.com/bryandlee/naver-webtoon-faces
+
+https://github.com/HGLiu1998/GAN-inversion. stylegan2 inversion
+https://github.com/bryandlee/stylegan2-encoder-pytorch
+https://github.com/genforce/idinvert_pytorch
+https://github.com/bryandlee/naver-webtoon-faces
+https://github.com/XingruiWang/Animefy
+
+https://github.com/utkarshojha/few-shot-gan-adaptation 有可能这就是我要找的！！
+https://github.com/weihaox/awesome-image-translation#year-2021  image translation 的大集合
+
+https://github.com/CompVis/brushstroke-parameterized-style-transfer  CVPR 2021的style transfer，风格迁移，还没开源，看论文的出图效果很好。 注意，CompVis有多个风格迁移的代码，多多关注他。
+https://github.com/CompVis/content-style-disentangled-ST/tree/dev_subm_1 这个也是CompVis的风格迁移，代码开源，但是没有训练好的模型，需要自己训练。有很多视频展示。
+
+https://github.com/pkuanjie/ArtFlow  CVPR2021的的style transfer，风格迁移，已经开源
+
+
+
+https://github.com/aigagror/style-transfer-quality
+
+https://github.com/GuillaumeAI/rwml__adaptive_style_transfer  2018年的论文，半年前开源（2020-6），第一眼看上去很牛。 website内容很丰富，测试看看。python2的，而且没法下载模型。
+
+https://github.com/rosinality/swapping-autoencoder-pytorch  似乎是一个很牛B的 fast风格迁移，有点类似于nvidia的fast photostyle
+https://github.com/taesungp/swapping-autoencoder-pytorch. 这个才是官方的版本！！
+
+==================  ONNX / TensorRT ===============
+https://github.com/onnx/tensorflow-onnx   TF转 ONNX
+
+===================================================
+
+https://github.com/D1noFuzi/cmd_styletransfer。CVPR '21的风格迁移. 测试下来，感觉和stortss差不多吧。
+https://github.com/cszn/BSRGAN  看上去效果特别好的超分辨率，以及消除噪音。但是还没有开源。已经开源了，赶紧测试吧！
+
+https://github.com/thesouthfrog/stylealign  2019年，人脸风格迁移，是基于脸部mark来实现迁移的，可能有用，下周测试看看。
+
+https://github.com/sangwoomo/instagan   2019年的img2img,基于cyclegan, 训练的图像似乎是不需要分域的
+
+https://github.com/summerice9/AniGAN. 人脸转漫画，看上去效果很好。还没有开源。
+https://github.com/SystemErrorWang/White-box-Cartoonization. 差不多一年前的图片卡通化，效果感觉还可以的。
+
+https://github.com/czczup/URST  刚刚开源的超大分辨率的style transfer 2021-3
+https://github.com/PeterL1n/BackgroundMattingV2#community-projects  4K的实时视频抠图，刚开源。  2021-3
+https://github.com/PeterL1n/BackgroundMattingV2  
+https://github.com/nex-mpi/nex-code  看上去有点像静态照片转3D？需要再深入了解。
+
+
+https://ondrejtexler.github.io/faceblit/. 实时的脸部风格迁移。4月份将会开源(可能是C/Java的）
+
+https://github.com/giddyyupp/ganilla 儿童绘画本的img2img
+
+https://github.com/ZHKKKe/MODNet 实时视频抠图
+https://github.com/hyperplane-lab/ACL-GAN img2img, 不知道效果如何。
+
+2021-3-14:
+https://github.com/jiupinjia/stylized-neural-painting。2020年一笔一笔画油画。
+https://github.com/megvii-research/ICCV2019-LearningToPaint  2019年一笔一笔画油壶。
+https://github.com/harskish/ganspace  修改stylegan2等的，看上去效果不错，建议测试下。
+
+
+2021-3-11:
+https://github.com/chaofengc/Face-SPARNet  人脸超分辨率
+https://github.com/deepfakes/faceswap  换脸，带GUI
+https://reflect.tech/faceswap/my 在线换脸的网站。
+faceshifter:   https://blog.csdn.net/weixin_46003989/article/details/113893743?spm=1001.2014.3001.5501
+
+
+https://github.com/eezkni/UEGAN  图像色彩增强  （没有 pre-trained model，只能自己训练）
+https://github.com/mr-Mojo/NICER 图像色彩增强 （德国人的，自带GUI界面，但是效果似乎不是很好）
+https://github.com/sjmoran/DeepLPF 华为的图像增强(没有 pre-trained model，只能自己训练）
+https://github.com/beholdergan/Beholder-GAN  人脸美化
+https://github.com/5starkarma/face-smoothing  人脸光滑。似乎有很bug
+https://github.com/wtjiang98/PSGAN   人脸的化妆风格迁移，很强，试试看。(明天测试,好像只能支持256分辨率）
+https://github.com/HuiZeng/Image-Adaptive-3DLUT 图像增强领域大突破！以1.66ms的速度处理4K图像 (明天测试---这个还真不错。但是用于婚纱的话，还需要加一点亮度，下降一点饱和度。）
+
+
+https://github.com/nothinglo/Deep-Photo-Enhancer 我网站使用的图像一键增强
+
+https://www.yuque.com/docs/share/42482c46-405c-4ff1-bf32-fcec6c735b8b?#
+
+https://github.com/sanghunpark/neural_crossbreed
+https://github.com/CompVis/taming-transformers
+
+https://github.com/fei-hdu/sRender 素描肖像，看上去效果不错！！
+https://github.com/HideUnderBush/UI2I_via_StyleGAN2  基于stylegan2的 img2img，看上去不错，可能是我需要的！看描述，1024X1024的图片需要1分钟时间来生成。。
+https://github.com/edward3862/carime 人脸卡通画
+https://github.com/linjx-ustc1106/TuiGAN-PyTorch.  今晚测试 。单张图片的img2img
+https://github.com/clovaai/tunit 不需要分域的img2img，没有看懂
+
+
+
+
+https://github.com/ManthanBhala/Style-Transfer-by-Rigid-Alignment 测试过了，感觉生成图有点模糊，不算很好。
+
+https://github.com/LucasAlegre/SelfieArt
+https://github.com/eladrich/pixel2style2pixel
+https://github.com/FuxiCV/MeInGame 单张照片创建3D游戏头像
+https://github.com/orpatashnik/BalaGAN  不对称域的img2img transfer
+https://github.com/bruceyanwee/fast_style_transfer_v2.0
+https://github.com/zxhuang97/Official-implementation-StyleMixer
+https://github.com/ZHKKKe/MODNet  >60fps的视频实时抠图
+https://github.com/HideUnderBush/UI2I_via_StyleGAN2  
+
+https://github.com/aigagror/discriminator-style-transfer
+https://github.com/ycjing/Neural-Style-Transfer-Papers.  很不错的 style transfer 集合！
+https://github.com/lzhbrian/image-to-image-papers. 很不错的img2img 集合！
+https://github.com/WonwoongCho/GDWCT 
+https://github.com/PeterouZh/Image2Image-Daily.  image2image的大集合！！
+https://github.com/weihaox/awesome-image-translation.  image2image的大集合！！按照时间和顶会分。
+https://github.com/weihaox/awesome-image-translation/blob/master/README_.md  image2image的大集合！！ 按照类别分
+https://paperswithcode.com/task/image-to-image-translation/latest.   SOTA
+https://github.com/acht7111020/DSMAP
+https://github.com/alpc91/NICE-GAN-pytorch
+https://portraitai.app/
+
+https://github.com/EndlessSora/TSIT
+https://github.com/Ha0Tang/AttentionGAN
+https://github.com/aigagror/discriminator-style-transfer
+
+https://github.com/Onr/Council-GAN
+coco-funit
+
+https://github.com/taesungp/contrastive-unpaired-translation. img2img，这是cyclegan推荐的，应该极其牛！
+
+https://github.com/cysmith/neural-style-tf  4年前经典的风格迁移，效果非常好，可以测试下。
+https://github.com/zhijieW94/ETNet 2019年的 style transfer，号称干掉了wct，adain。一定要测试下。 运行不起来阿。
+https://github.com/nightldj/behance_release  似乎对脸部的风格迁移表现特别好的。要测试下！居然是python 2.x的。。。。
+
+https://github.com/vijishmadhavan/ArtLine 绝对牛B的图画转线条画。一定要测试。
+https://github.com/acht7111020/DSMAP  似乎很牛的一个风格迁移。 Domain-Specific Mappings for Generative Adversarial Style Transfer -->测试了，感觉效果一般。
+http://style.airi.kr/demo/  http://style.airi.kr/ori_demo/  速度飞快，效果顶级的 图像风格融合！前者是加强版，后者是开源的基础版本 一定要研究下！！https://www.reddit.com/r/deepdream/comments/buqj3e/new_style_transfer_demo_site/ 这里在讨论。
+
+https://github.com/odegeasslbc  这哥们玩的几个GAN似乎非常牛B。 比如 fastgan。
+https://github.com/ruanjiyang/neural-style-pt 在今天头条看到的一个有人推荐的 style tansfer，看描述，速度不错的。值得尝试。
+https://github.com/odegeasslbc/FastGAN-pytorch 只需要几百张图片的gan，有空一定要测试下。
+http://codingdict.com/sources/py/flask_login.current_user.html   current_user的属性
+
+https://github.com/volotat/DiffMorph  两张图片之间的渐变
+https://github.com/aigagror/discriminator-style-transfer  一中全新的风格迁移。
+
+https://github.com/Azmarie 一个玩脸部编辑的高手，他的下面的这个就是我要的，明天测试下！
+https://github.com/Azmarie/Caricature-Your-Face   脸部风格迁移，使用了The Face of Arts 和 DST--Deformable Style Transfer
+
+
+https://github.com/DesmondYuan/DeepMovement
+
+https://ai-art.tokyo/  日本大名鼎鼎的人脸变名画
+
+https://github.com/EnigmAI/Artistia 一个web，提供了上色，迁移，素描画等三个功能。界面还不错。
+
+https://github.com/WellyZhang/MetaStyle  这个可能值得一试。
+https://github.com/GlebBrykin/SANET
+
+https://github.com/CompVis/adaptive-style-transfer   A Style-aware Content Loss for Real-time HD Style Transfer
+
+https://awesomeopensource.com/  一些开源代码的大集合
+
+https://github.com/cysmith/neural-style-tf  4年前的一个 tensorflow的 风格迁移，看paper觉得效果很好。但是可能速度会不够块。试试看吧
+
+https://github.com/JulianJuaner/PortraitST 人脸的风格迁徙，一定要测试下，难道找到了？ --测试过了， 最主要的问题是，生成的图上会存在风格图的一些鬼影。
+
+https://github.com/SystemErrorWang/White-box-Cartoonization   2020年cvpr的卡通化
+
+https://github.com/diyiiyiii/Arbitrary-Style-Transfer-via-Multi-Adaptation-Network 似乎效果不错的风格迁移，保留了图片细节。
+
+https://www.5dmcity.cn/   游戏下载站点
+https://aiartists.org/   ai艺术的大集合
+
+https://github.com/pietrocarbo/deep-transfer  这个似乎有点牛，要测试看看
+
+公认的计算机视觉三大会议分别为ICCV,ECCV,CVPR  + SIGGRAPH（Special Interest Group for Computer GRAPHICS，计算机图形图像特别兴趣小组
+
+https://github.com/vijishmadhavan/ArtLine   照片变成简笔画
+
+https://github.com/aigagror/discriminator-style-transfer.  一共全新的非常好的 style transfer， 一定要试试看！--》https://www.youtube.com/watch?v=OJpXr3GQyHY&t=40s  #测试了发现很一般
+
+https://pystiche.readthedocs.io/en/latest/getting_started/installation.html  # pystiche 风格迁移框架  #测试了发现很一般
+https://github.com/pmeier/pystiche  #测试了发现很一般
+
+
+https://github.com/ruanjiyang/deep_image  似乎有点牛的风格迁徙
+
+https://github.com/zfergus/face-preserving-style-transfer  风格迁移，保留脸部正常。
+https://github.com/chaofengc/PSFRGAN 人脸超分辨率
+https://github.com/buaazyc/Fast_faceswap  快速换脸。
+
+https://github.com/irasin/Structure-emphasized-Multimodal-Style-Transfer 一个来自日本留学生的风格迁移的硕士论文
+https://github.com/irasin/Pytorch_AdaIN 此人的AdaIN  这个人玩风格迁移玩得不错的
+https://github.com/irasin/Pytorch_MST 此人的MST 
+
+https://github.com/yulunzhang/MST  2019年的原版的tensorflow的MST风格迁移
+
+
+https://github.com/ddowd97/Python-Image-Morpher   图像变形。
+https://github.com/ruanjiyang/Pytorch_AdaIN AdaIN 风格迁移，还没有测试过，试试看！
+
+https://github.com/trending  github官方的趋势排行榜
+
+https://artbreeder.com/   ->https://github.com/joel-simon/ganbreeder  
+
+https://github.com/anandpawara/Real_Time_Image_Animation.git
+
+https://github.com/521xueweihan/HelloGitHub  中文的github优秀项目榜单
+
+https://www.oschina.net/project/lang/25/python  开源中国网站-python开源项目精选
+
+https://github.com/KuangDD/zhrtvc  中文版本的real time voice clone 克隆语音
+
+https://github.com/alievk/avatarify  实时视频中换头像，非常牛。
+
+https://github.com/alievk/first-order-model  这个是上述换头像库所引用的另外一个库，似乎是给任意一张图片加上本人的动作，也很牛。
+
+https://cuijiahua.com/   一个好网站，有各类github项目的介绍！！ 其中 程序员欢乐颂是最好的。 https://cuijiahua.com/blog/life/
+
+最好的换脸。https://github.com/clovaai/stargan-v2
+
+https://github.com/giddyyupp/ganilla     GANILLA 是一个风格迁移算法，可以将一副自然图片变成“宫崎骏”画风的漫画。
+
+https://github.com/alievk/avatarify  视频会议中换脸
+
+
+3D 场景渲染算法，一张照片渲染出一个3D场景。https://github.com/vt-vl-lab/3d-photo-inpainting
+
+阿里云视觉智能开放平台 https://vision.aliyun.com/
+
+图像修复领域的王者DeepFill v2   https://github.com/JiahuiYu/generative_inpainting
+
+
+https://github.com/tamarott/SinGAN  从一张图片中生成宽幅照片，SinGAN将GAN带入了一个新领域，从单幅自然图像中学习非条件生成模型，它能够捕捉图像的内部块分布信息，生成具有相同视觉内容的高质量、多变的样本。
+
+https://github.com/senguptaumd/Background-Matting。  视频换背景！陈士明要的！
+
+ConSinGAN 是去年谷歌提出的 SinGAN 的改进版，是一种基于单张图片的图像生成模型，并将其应用到多个方向，包括图像随机生成，图像融合、图像动画、图像去雾、图像编辑以及图像超分重建等。  https://github.com/tohinz/ConSinGAN
+
+视频插帧算法 DAIN插帧算法  https://github.com/baowenbo/DAIN
+
+PyMatting  Ai抠图算法。https://github.com/pymatting/pymatting
+
+Pytorch 3D。https://github.com/facebookresearch/pytorch3d
+
+https://github.com/jindongwang/transferlearning  迁移算法大全！！ 学习资料！
+
+FFmpeg有非常强大的功能包括：视频采集、视频格式转化、视频截图、视频添加水印、视频切片(m3u8、ts)、视频录制、视频推流、更改音视频参数（编码方式、分辨率、码率、比特率等）功能，等等。    https://github.com/kkroening/ffmpeg-python
+
+https://github.com/Yuheng-Li/MixNMatch   4合1 图像！！MixNMatch 是条件图像生成算法，可以通过多维度的特征，进行图片生成。
+
+
+https://github.com/idealo/image-quality-assessment  给照片评分
+
+
+https://github.com/streamlit/streamlit/。Streamlit是一款专为机器学习工程师创建的免费、开源Web App构建框架，可以帮助你在写Python 代码的时候，实时更新你的Web应用。
+
+Facial Details Synthesis 是一个基于单幅图像的真实人脸细节合成算法，通过单张图像就可以合成 3D 人脸。 https://github.com/apchenstu/Facial_Details_Synthesis
+
+
+https://github.com/lllyasviel/style2paints 人工智能一笔一笔给线稿上色。
+
+视频图像修复，把标记出来的物体从视频中去掉。  https://github.com/nbei/Deep-Flow-Guided-Video-Inpainting
+
+https://github.com/vincent-thevenin/Realistic-Neural-Talking-Head-Models 从一张人像图生成动图
+
+https://github.com/iperov/DeepFaceLab 好像很牛B的一个换脸
+
+这是一个有趣的GAN项目。根据一段音频和一个人物静态图，可以生成一个嘴型可以对上这段音频的人物说话视频。 https://github.com/DinoMan/speech-driven-animation
+
+高帧率视频生成Super SloMo
+Adobe深度抠图
+EdgeConnect图像修复，先修复线条，再来填色。比较神奇 https://github.com/knazeri/edge-connect
+手机图像质量提升。https://github.com/aiff22/DPED
+4、GauGAN  涂鸦变照片
+
+Deep Painterly Harmonization 可以将一幅图像毫无违和感地嵌入另一幅图像当中。该算法经过两个步骤，可以将物体和人完美(或近乎完美)地嵌入画作中，且与艺术家的风格完全匹配。  https://github.com/luanfujun/deep-painterly-harmonization
+
+ 
+https://ebsynth.com/  Adobe又逆天！13.5M软件就能把《长安十二时辰》变成水墨动画  https://www.ithome.com/0/433/459.htm
+
+https://goart.fotor.com/  人工智能处理图像的网站。
+
+Super-SloMo 高帧率视频生成
+https://github.com/avinashpaliwal/Super-SloMo
+
+
+https://topazlabs.com/  这个网站是卖ai处理图形的软件的，极其牛B！！
+https://github.com/ruanjiyang/reproducible-image-denoising-state-of-the-art  降噪
+Topaz JPEG to RAW AI链接：https://pan.baidu.com/s/1657tWukMiq3SvcJ8Pm08zA 提取码：wz15
+人工智能抠图软件下载链接：https://pan.baidu.com/s/13h8te3u-UHj4DDQkIIjXRQ
+提取码：by58
+人工智能调色链接：https://pan.baidu.com/s/1xar9KI5BE8AS9FN5rhK23A
+提取码：u6bb
+人工智能锐化软件链接：https://pan.baidu.com/s/12e8Kt1GyeL6xipb1GvZIHQ
+提取码：3nyu
+人工智能放大软件链接：https://pan.baidu.com/s/1IsbTSdE8irT3wf4Op03OLw
+提取码：mo70
+人工智能降噪软件链接：https://pan.baidu.com/s/1kJM9GpA9A23l191rC2ECNg 提取码：fiv4
+解压密码：xxc369334667
+
+ecrett music。 ai给视频配乐！
+
+https://github.com/run-youngjoo/SC-FEGAN。脸部编辑！！牛。
+
+https://github.com/Zulko/moviepy。python处理视频的库
+
+FX Cartoonizer， 图像转卡通。
+
+Prima Cartoonizer 1.1.1绝对强悍首发图像转卡通素描效果    
+
+https://github.com/suifengqjn/videoWater   批量伪原创视频剪辑器  https://mediablog.github.io/
+
+https://github.com/thunil/TecoGAN 放大视频/video super resolution
+
+Musenet 人工智能作曲
+
+https://www.photopea.com/  一个在线的Photoshop，很cool，很有启发。
+
+https://github.com/marcogdepinto/Deep-learning-model-deploy-with-django 用django部属一个keras模型的例子。
+
+http://sc.chinaz.com/tag_moban/html5.html  站长素材站的html5模板
+
+https://themewagon.com/theme_tag/free/  国外的一个html 模板网站，很漂亮
+
+https://themewagon.com/themes/free-bootstrap-4-html5-ui-kit-website-template-neumorphism-ui/  新拟物风 UI设计
+
+https://github.com/google-research/lag   由一个模糊图像来生成一组合理的图片。
+
+https://www.mantouxia.com/1271.html   WordPress博客主题win10资源样式-Win10 Explorer v1.3  ->https://github.com/ghboke/win10explore/
+
+https://creativemarket.com/themes/wordpress/portfolio  wordpress主题，国外的，很棒
+
+https://themeforest.net/item/avada-responsive-multipurpose-theme/2833226  著名主题商店网站themeforest，里面最著名的Wordpress主题-  avada
+
+
+电脑端访问 - https://qlink.to/RuanjiyangNAS 账号，妈的邮箱， 密码最复杂。  NAS设备账号admin，密码最复杂。
+
+极简壁纸，很多不错的图片  https://bz.zzzmh.cn/
+
+https://github.com/IBM/MAX-Image-Resolution-Enhancer  IBM的无损放大， 似乎很牛， 需要用docker的
+
+https://www.ipaddress.com/ 查域名的ip地址的工具，比如github的图片没办法显示的时候，就用它来查出域名，然后去添加到 /etc/hosts
+https://github.com/minyuanye/SIUN  图像清晰化
+https://github.com/pnbao/deep-photo-enhance 图像增强的tensorflow代码实现。
+https://github.com/hucvl/dark-burst-photography/  相片去噪
+https://github.com/minyuanye/SIUN  照片去模糊，去手抖。
+https://github.com/ericsujw/InstColorization  华人的新的智能着色。
+
+https://github.com/SystemErrorWang/White-box-Cartoonization 一个效果更好的有点类似于宫崎骏风格的动漫化。
+ 
+https://github.com/ajbrock/BigGAN-PyTorch  大名鼎鼎的BigGAN，还没仔细研究！
+
+https://github.com/MaybeShewill-CV/attentive-gan-derainnet  去雨珠，不错，准备做入我的网站。
+
+https://github.com/SHI-Labs/Pyramid-Attention-Networks  一个似乎很牛B的图像增强，有超分辨率，去马赛克，去噪音等
+
+https://github.com/NVlabs Nvidia的Github大本营
+
+https://github.com/NVlabs/stylegan2  自动生成人像，使用说明在这https://blog.csdn.net/weixin_41943311/article/details/103611827   这哥们玩stylegan2玩得太溜了，这是他的网页。http://www.seeprettyface.com/index.html
+
+https://github.com/a312863063/generators-with-stylegan2 基于StyleGAN2的新版人脸生成器
+
+https://github.com/NVlabs/selfsupervised-denoising  Nvidia的降噪
+
+https://github.com/ruanjiyang/awesome-pretrained-stylegan2  预训练好的一些stylegan2的模型。
+
+https://github.com/podgorskiy/ALAE 基于自编码器的人脸编辑，GUI挺漂亮，不过不是基于web
+
+五个在线图像编辑：
+1）befunky。2）Fotor。3）Pixlr x。4）iPiccy 5）adobe photoshop express editor. 6)polarr. 7)ribbet 8)photopea. 9)google photo
+
+http://docs.photoeditorsdk.com/   python的在线图像编辑，一定要试试看。似乎是要花钱的。
+
+https://github.com/k-l-lambda/stylegan-web  StyleGan2的Web版本
+
+https://github.com/thunil/TecoGAN 似乎是一个非常牛的超分辨率  super revelution
+
+https://www.lyblog.net/docs/vue.access.control/zh/ Vue权限管理组件(VueAccessControl)
+
+http://manaai.cn/ 神力AI 代码库
+
+图像超分辨率 CVPR2020 | https://github.com/guoyongcs/DRN 
+
+https://github.com/NathanUA/U-2-Net 似乎很牛的matting 扣图 
+
+https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life   老照片修复，包括带划痕和没有带划痕的。
+
+https://github.com/ruanjiyang/sample-imageinpainting-HiFill 华为的高分辨率的 图片中移除物品。
+
+苏黎世联邦理工学院的图像超分辨率 https://github.com/cszn/USRNet
+
+https://material.iconhelper.cn/?q=image    MDI Material Design Icon 中文搜索助手
+
+ostagram.com  图像融合网站
+
+https://www.rawpixel.com/board/537381/vincent-van-gogh-free-original-public-domain-paintings?sort=curated&mode=shop&page=1  梵高画作。
+
+https://github.com/facebookresearch/one_shot_3d_photography  一张照片变成3D动图。
+
+https://github.com/ruanjiyang/pifuhd 3d全身人像建模
+
+https://github.com/magicleap/Atlas  3D场景建模
+
+https://github.com/nywang16/Pixel2Mesh  基于RGB 图片的 物体建模 
+
+https://github.com/alicevision/meshroom 似乎是最牛B的3D建模，  另外一个似乎更牛的叫做RealityCapture， 不免费？
+
+http://www.nathanshipley.com/  一个AI的效果展示网站，有个很cool的AI生成的动画人头像。强力推荐。
+
+https://www.justinpinkney.com/  一个国外的玩GAN的大牛！！
+
+https://colab.research.google.com/drive/1s2XPNMwf6HDhrJ1FMwlW1jl-eQ2-_tlk?usp=sharing#scrollTo=b-2oM_L8VWYZ.  toonify动漫化，一定要试试看。具体说明在这里 https://www.justinpinkney.com/toonify-yourself/
+
+https://shartoo.github.io/2019/05/12/edit-stylegan-humanface/  使用StyleGAN训练自己的数据集.md
+
+http://ai-benchmark.com/alpha.html   AI 性能测试 Benchmark
+
+mogrify linux下面的图像批处理命令行
+
+https://wallhaven.cc/ 顶级墙纸网站
+
+https://developer.nvidia.com/blog/accelerating-tensorflow-on-a100-gpus/ 30系列显卡tensorflow 1.15环境的配置。
+
+https://pixabay.com/ 顶级图片网站。
+
+https://github.com/codeslake/Color_Transfer_Histogram_Analogy  
+https://github.com/DerrickXuNu/Illuminant-Aware-Gamut-Based-Color-Transfer
+https://github.com/amusi/CVPR2020-Code#Style-Transfer 2020 CVPR顶会大全
+https://github.com/extreme-assistant/CVPR2020-Paper-Code-Interpretation CVPR 顶会
+https://github.com/extreme-assistant/CVPR2020-Paper-Code-Interpretation/blob/master/cvpr_2019_githublinks.csv
+
+
+https://github.com/ruanjiyang/Collaborative-Distillation  2020顶级的风格迁徙
+https://github.com/wenqingchu/Semantic-CariGANs  人脸 漫画
+
+https://github.com/alex04072000/SingleHDR 2020 CVPR的单张图片HDR
+
+https://github.com/sunniesuhyoung/DST    Deformable Style Transfer (DST)
+https://faculty.idc.ac.il/arik/site/foa/face-of-art   /  https://github.com/papulke/face-of-art
+https://github.com/human-aimachine-art/pytorch-STROTSS-improved
+https://github.com/clovaai/WCT2
+
+https://github.com/gordicaleksa/pytorch-neural-style-transfer
+
+时辰迁徙/wikiart迁徙  https://saic-mdal.github.io/HiDT/   https://github.com/saic-mdal/HiDT
+
+https://github.com/WellyZhang/MetaStyle   AAAI 2019 MetaStyle: Three-Way Trade-Off Among Speed, Flexibility and Quality in Neural Style Transfer
+
+https://aiartists.org/   ai艺术的大集合
