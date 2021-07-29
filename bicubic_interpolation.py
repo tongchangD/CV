@@ -63,12 +63,37 @@ def BiLinear_interpolation(img,dstH,dstW):
             retimg[i,j]=(1-u)*(1-v)*img[x,y]+u*(1-v)*img[x+1,y]+(1-u)*v*img[x,y+1]+u*v*img[x+1,y+1]
     return retimg
 
-img = cv2.imread("../paojie_g.jpg",0).astype(np.float)
-out = double_linear(img,2).astype(np.uint8)
-cv2.imwrite("out.jpg", out)
 
-im_path='../paojie.jpg'
-image=np.array(Image.open(im_path))
-image2=BiLinear_interpolation(image,image.shape[0]*2,image.shape[1]*2)
-image2=Image.fromarray(image2.astype('uint8')).convert('RGB')
-image2.save('out.png')
+# 最近邻插值算法
+# dstH为新图的高;dstW为新图的宽
+def NN_interpolation(img,dstH,dstW):
+    scrH,scrW,_=img.shape
+    retimg=np.zeros((dstH,dstW,3),dtype=np.uint8)
+    for i in range(dstH-1):
+        for j in range(dstW-1):
+            scrx=round(i*(scrH/dstH))
+            scry=round(j*(scrW/dstW))
+            retimg[i,j]=img[scrx,scry]
+    return retimg
+
+
+
+# img = cv2.imread("../paojie_g.jpg",0).astype(np.float)
+# out = double_linear(img,2).astype(np.uint8)
+# cv2.imwrite("out.jpg", out)
+
+# im_path='../paojie.jpg'
+# image=np.array(Image.open(im_path))
+# image2=BiLinear_interpolation(image,image.shape[0]*2,image.shape[1]*2)
+# image2=Image.fromarray(image2.astype('uint8')).convert('RGB')
+# image2.save('out.png')
+
+
+
+# im_path='../paojie.jpg'
+# image=np.array(Image.open(im_path))
+
+# image1=NN_interpolation(image,image.shape[0]*2,image.shape[1]*2)
+# image1=Image.fromarray(image1.astype('uint8')).convert('RGB')
+# image1.save('out.png')
+
