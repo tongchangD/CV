@@ -47,7 +47,7 @@ def cut_big_pic(img_path, source_min_img_path, height_cut, width_cut,lenth):
 
 def image_compose2(source_img_path, source_min_img_path, res_pic_path):
     # 获取 文件夹 中 的图片 数量及其 尺寸
-    min_pic_file = os.listdir(source_min_img_path)
+    min_pic_file = sorted(os.listdir(source_min_img_path))
     img1 = cv2.imdecode(np.fromfile(os.path.join(source_min_img_path, min_pic_file[0]), dtype=np.uint8), -1)
     min_height, min_width, depth = img1.shape
     diff_width = 0
