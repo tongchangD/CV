@@ -28,9 +28,7 @@ def ycbcr_to_bgr(one):
     return cv2.merge([B, G, R])
 
 img=cv2.imread("/home/tcd/Desktop/image-20210816134543164.png")
-
 cv2.imshow("source",img)
-
 Y=bgr_to_ycbcr(img)
 # BGR=ycrcb_to_bgr(img)
 cv2.imshow("Y",Y)
