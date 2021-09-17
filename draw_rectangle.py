@@ -17,25 +17,33 @@ def draw_(event,x,y,flags,param):
 
     #当鼠标左键按下并移动时绘制图形,event 可以看成移动,flag 查看是否按下
     elif event ==cv2.EVENT_MOUSEMOVE and flags == cv2.EVENT_FLAG_LBUTTON:
-
-        if mode == True:
-            cv2.rectangle(img,(ix,iy),(x,y),(0,255,0),-1)
-        else:
-            #绘制圆圈,小圆点连在一起就成了线,3 代表了笔画的粗细
-            cv2.circle(img,(x,y),3,(0,0,120),-1)
+        pass
+        # if mode == True:
+        #     cv2.rectangle(img,(ix,iy),(x,y),(0,255,0),thickness=2)
+        # else:
+        #     #绘制圆圈,小圆点连在一起就成了线,3 代表了笔画的粗细
+        #     cv2.circle(img,(x,y),3,(0,0,120),-1)
             #起始点为圆心,起点到终点为半径的
             #r = int(np.sqrt((x-ix)**2+(y-iy)**2))
             #cv2.circle(img,(x,y),r(0,0,255),-1)
     #当鼠标松开,停止绘制
     elif event == cv2.EVENT_LBUTTONUP:
+        cv2.rectangle(img,(ix,iy),(x,y),(0,255,0),thickness=2)
         # print(dada)
-        imgdada=img_new[iy:y,ix:x]
-
-        cv2.imwrite(os.path.join(respath,filename.split(".")[0]+time.strftime('_%H_%M_%S')+"."+filename.split(".")[1]), imgdada)
+        global h,w,ih,iw
+        h = x
+        w = y
+        ih = ix
+        iw = iy
+        # imgdada=img_new[iy:y,ix:x]
+        # cv2.imwrite(os.path.join(respath,filename.split(".")[0]+time.strftime('_%H_%M_%S')+"."+filename.split(".")[1]), imgdada)
     drawing ==False
 
 if __name__ == "__main__":
-
+    h = 0
+    w = 0
+    ih = 0
+    iw = 0
     path = glob("/home/tcd/Desktop/image_down/上海旧照片/*")
     respath = "/media/tcd/data/github/CV/code/CV_project/res"
     if not os.path.exists(respath):
@@ -72,13 +80,16 @@ if __name__ == "__main__":
                     break
                 elif k == 50: # 剪切 下一张
                     print(k,"剪切，下一张")
+                    imgdada=img_new[iw:w,ih:h]
+                    cv2.imwrite(os.path.join(respath,filename.split(".")[0]+time.strftime('_%H_%M_%S')+"."+filename.split(".")[1]), imgdada)
                     i += 1
                     break
                 elif k == 96:   # 删除 既是 不 copy
                     print(k,"不做操作，下一张")
                     i += 1
                     break
-
+                elif k==27:
+                    exit(0)
             cv2.destroyAllWindows()
 
 
